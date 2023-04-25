@@ -14,7 +14,7 @@ else
       git pull
       git checkout main
       npm run build
-      cp -r /var/project/nomadwisdom/* /var/www/html/
+      cp -r /var/project/nomadwisdom/dist/* /var/www/html/
       echo "FE job done"
     else
       echo "nothing to deploy"
